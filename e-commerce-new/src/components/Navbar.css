@@ -1,0 +1,96 @@
+.custom-navbar-container {
+    /* position: fixed; */
+    position: fixed;
+    width: 100vw;
+    margin-top: 6rem;
+    z-index: 2500;
+    /* padding-right: 100rem; */
+    left: 0;
+    background-color: #f8f9fa;
+   
+  }
+
+  #contact-dropdown{
+    z-index: 1000;
+    overflow-y: auto;
+  }
+
+  .my-e-com{
+    left: 10rem;
+    top: 0;
+    margin-bottom: 7rem;
+    position: absolute;
+   
+  }
+
+ 
+  
+  /* body {
+    padding-top: 70px; Adjust according to the height of your navbar
+  } */
+  
+  /* Additional custom styling for the navbar if needed */
+  .navbar-brand {
+    font-weight: bold;
+    left: 10rem;
+    position: relative;
+
+  }
+
+  .basic-navbar-nav{
+    left: 1rem;
+      position: absolute;
+    }
+  
+  .navbar-nav .nav-link {
+    color: #333 !important; /* Ensure links are dark */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Change to your preferred hover color */
+  }
+
+/* Add this media query to your Navbar.css or appropriate CSS file */
+
+@media only screen and (min-width: 344px) and (max-width: 1280px) {
+  .custom-navbar-container {
+    left: 0;
+   
+    position: fixed;
+    width: 100vw;
+    top: 5rem;
+
+    z-index: 2500;
+   
+   
+  }
+
+
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .custom-navbar-container {
+    position: fixed;
+    left: 0;
+  
+    width: 100vw;
+    top: 2rem;
+    z-index: 2500;
+   
+   
+  }
+}
+@media only screen and (min-width: 820px){
+  .custom-navbar-container {
+   left: 0;
+    position: fixed;
+    width: 100vw;
+    top: 3rem;
+    z-index: 2500;
+   
+   
+  }
+
+
+}

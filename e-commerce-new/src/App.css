@@ -1,0 +1,556 @@
+#root {
+    /* max-width: 1280px; */
+    /* margin: 0 auto; */
+    padding: 4rem;
+    text-align: center;
+  }
+  
+  
+  
+  
+  .product-container {
+    top: 100rem;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+  
+  .product-item {
+    left: 30rem;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #218838;
+  }
+  
+  .added-to-cart {
+    background-color: #17a2b8;
+    cursor: default;
+  }
+  
+  .time-zone{
+    width: 15vw;
+    height: 15vh;
+    color: red;
+    background-image: url(../src/components/assets/YMShop-home1-deal.png);
+  
+    left: 5rem;
+    position: absolute;
+   
+  }
+  .product-container .time-zone{
+    /* background-color: blue; */
+    font-size: 4rem;
+    bottom:2rem;
+    position: absolute;
+    
+  }
+  
+  
+  /* .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  } */
+  
+  /* @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+  
+  
+  
+  
+  
+  @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+  }
+  
+  .logo-carousel-container {
+    width: 70vw;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    top: 27rem;
+    position: relative;
+    left: 8rem;
+  }
+  
+  .logo-carousel {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .logo-carousel img {
+    width: 100vw;
+    height: 100px;
+    margin: 0 10px;
+  }
+  
+  
+  #footer-div{
+    background-color: rgba(199, 175, 175, 0.875);
+    width: 100vw;
+    height: 70vh;
+    top: 250rem;
+    position: absolute;
+    left: 0;
+    
+  }
+  
+  
+  .form111{
+    width: 500px;
+    background-color: white;
+    /* height: 50%; */
+    top: 0rem;
+   
+    position: relative;
+    bottom: 2rem;
+    left: 60rem;
+    top: 2.5rem;
+    z-index: 3rem;
+  }
+  
+  .form111 input{
+    border: 5PX solid BLACK;
+    background-color: white;
+    width: 500px;
+    /* width: 350px; */
+    height: 40px;
+    left: 0rem;
+    padding: 2rem;
+    /* top: 0rem; */
+    position: relative;
+    color: white;
+  }
+  .fbutton button{
+  
+    /* height: 60px; */
+    height: 10vh;
+  
+    
+  }
+  
+  .fbutton{
+    background-color: black;
+    z-index: 5rem;
+    /* width: 40%; */
+   
+    top: 0;
+    /* margin-bottom: 5rem; */
+    right: 0rem;
+  
+  
+    position: absolute;
+    /* position: relative; */
+    padding: 10px;
+    padding-bottom: 2.2REM;
+    padding-left: 6%;
+    padding-right: 4%;
+  }
+  
+  .fbutton a{
+    text-decoration: none;
+    color: white;
+    font:bold;
+    top: 0.8rem;
+    position: relative;
+    text-align: center;
+  }
+  
+  
+  .footer1{
+    background-color: rosybrown;
+    width: 100VW;
+    left: 0;
+    height: 15vh;
+    border-bottom: 2px solid blue;
+  }
+  
+  .footer2{
+    background-color: black;
+    width: 100vw;
+    left: 0;
+    height:12vh;
+    top: 34rem;
+    position: relative;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+   
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .loader-container{
+    justify-content: center;
+    position: relative;
+    left: 45rem;
+  }
+  
+  
+  
+  
+  
+  /* body {
+    padding-top: 70px; Adjust according to the height of your navbar
+  } */
+  
+  /* Additional custom styling for the navbar if needed */
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333 !important; /* Ensure links are dark */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Change to your preferred hover color */
+  }
+  
+  /* App.css */
+  
+  
+  
+  
+  
+  
+  /* Optionally, add some custom styles for both navbars */
+  /* .top-navbar-container .navbar-brand,
+  .custom-navbar-container .navbar-brand {
+    padding-left: 20rem; 
+  } */
+  
+  
+  
+  #tel{
+    color: white;
+  }
+  
+  .modal-dialog {
+    width: 80%;
+    position: relative;
+    z-index: 7000;
+  }
+  
+  
+  /* Ensure the height of the top navbar */
+  
+  
+  
+  
+  
+  
+  /* Ensure the height of the main navbar */
+  
+  
+  /* Remove any margins and paddings that might be causing issues */
+  /* body, html {
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* Adjust the width and size of the sign-in and registration forms for mobile screens */
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 1280px) {
+    .modal-dialog {
+      width: 90vw;
+        left: 0;
+        position: relative;
+        /* z-index: 7000; */
+    }
+  
+    .my-e-com{
+      top: 4rem;
+      left: 0;
+      position: relative;
+  
+    }
+  
+    .Navbar-Brand{
+      position: fixed;
+      top: 0rem;
+      left: 0;
+    }
+  
+    /* #basic-navbar-nav{
+      left: 10rem;
+      position: relative;
+    } */
+  
+  
+  
+  
+  
+  
+  
+    .modal-body {
+        padding: 1rem;
+        width: 70vw;
+        z-index: 7000;
+        position: relative;
+    }
+  
+    .form {
+        padding: 1rem;
+        width: 20vw;
+        position: relative;
+        z-index: 7000;
+        left: 0;
+    }
+  
+    .form-control {
+        font-size: 0.9rem;
+        z-index: 7000;
+        position: relative;
+    }
+  
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+  
+    .top-navbar-container {
+        padding: 0.5rem;
+    }
+  
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+  
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 360px) {
+  
+    /* .me-2{
+      margin-top: 6rem;
+      position: relative;
+    } */
+    .modal-dialog {
+        max-width: 90%;
+        left: 0;
+        position: relative;
+        z-index: 7000;
+    }
+  
+    /* .navbar-collapse {
+      position: relative;
+      z-index: 5000;
+  } */
+  
+  /* Align the dropdown menu to the right */
+  /* .dropdown-menu {
+      right: 0;
+      left: 10rem;
+      z-index: 5000;
+      position: absolute;
+  } */
+  
+  
+  
+    .me-auto{
+      left: 10rem;
+      position: relative;
+    }
+  
+    .my-e-com{
+      top: 4rem;
+      left: 0;
+      position: relative;
+  
+    }
+  
+    .navbar-brand{
+      position: fixed;
+      top: 0rem;
+      left: 7rem;
+    }
+  
+    
+    .modal-body {
+        padding: 0.5rem;
+        width: 90vw;
+        z-index: 7000;
+        position: relative;
+    }
+  
+    .form {
+        padding: 0.5rem;
+        width: 90vw;
+        position: relative;
+        left: 0;
+    }
+  
+    .form-control {
+        font-size: 0.8rem;
+    }
+  
+    .btn {
+        font-size: 0.8rem;
+        padding: 0.25rem 0.5rem;
+    }
+  
+    .top-navbar-container {
+        padding: 0.5rem;
+    }
+  
+    .navbar-brand {
+        font-size: 1rem;
+    }
+  
+    .navbar-nav .nav-link {
+        font-size: 0.8rem;
+    }
+
+
+ 
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

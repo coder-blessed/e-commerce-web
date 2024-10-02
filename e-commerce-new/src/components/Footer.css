@@ -1,0 +1,77 @@
+
+/* #footer-div{
+    
+    position: absolute;
+    margin-top: 150rem;
+} */
+
+
+
+@media only screen and (max-width: 360px) {
+    
+
+    #footer-div{
+        background-color: rgba(199, 175, 175, 0.875);
+        width: 100vw;
+        height: 70vh;
+        margin-top: 500rem;
+        margin-bottom: 20rem;
+        position: relative;
+        left: 0;
+        
+      }
+      
+      
+      .form111{
+      right: 20rem;
+      }
+      
+    
+      .fbutton button{
+      
+        /* height: 60px; */
+        height: 10vh;
+      
+        
+      }
+      
+      .fbutton{
+        background-color: black;
+        z-index: 5rem;
+        /* width: 40%; */
+       
+        top: 0;
+        /* margin-bottom: 5rem; */
+        right: 0rem;
+      
+      
+        position: absolute;
+        /* position: relative; */
+        padding: 10px;
+        padding-bottom: 2.2REM;
+        padding-left: 6%;
+        padding-right: 4%;
+      }
+      
+      .fbutton a{
+        text-decoration: none;
+        color: white;
+        font:bold;
+        top: 0.8rem;
+        position: relative;
+        text-align: center;
+      }
+      
+      
+
+   
+      
+      .footer2{
+        background-color: black;
+        width: 100vw;
+        left: 0;
+        height:12vh;
+        top: 34rem;
+        position: relative;
+      }
+}

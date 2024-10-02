@@ -1,0 +1,211 @@
+.top-navbar-container {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgb(199, 34, 34);
+    height: 152px;
+    /* gap: 40rem; */
+    z-index: 4000;
+}
+
+.top-navbar-container  .language-dropdown {
+    z-index: 1000;
+    position: absolute;
+    display: flex;
+    top: 8%;
+   
+}
+
+/* Ensure the modal has a higher z-index */
+.modal {
+  z-index: 7000 !important; /* Bootstrap modals already use this z-index */
+}
+
+/* Ensure the backdrop has a high z-index as well */
+.modal-backdrop {
+  z-index: 7000 !important; /* Bootstrap backdrop z-index is set to 1040 */
+}
+
+.language-dropdown{
+    z-index: 5;
+    position: absolute;
+    margin-bottom: 8;
+    display: flex;
+}
+
+.top-navbar-container .navbar {
+    height: 85px; /* Adjust height as needed */
+    z-index: 2;
+    justify-content: space-between;
+    /* background-color: #343a40; */
+  }
+ #cart{
+    /* background-color: white; */
+    padding: 10px;
+    /* margin: 21px; */
+    position: relative;
+    left:0.4rem;
+    right: 10rem;
+ }
+
+ #tel{
+  padding: 10px;
+  /* margin: 21px; */
+  position: relative;
+  left: 6rem;
+    /* background-color: white; */
+    /* margin-left: 2rem; */
+   
+ }
+
+ #language-dropdown{
+    /* background-color: white; */
+    padding: 10px;
+    /* margin: 21px; */
+    position: relative;
+    left: 3rem;
+ }
+
+ .btn-btn-outline-light-menu-button{
+
+    position: absolute;
+    margin-left: 20rem;
+ }
+
+ /* #my-e-com{
+    left: 20rem;
+    position: absolute;
+  } */
+
+
+
+
+  .dropdown-menu {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    color: #000000;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f8f8;
+  }
+
+
+ 
+
+  #dropdownMenuButton{
+
+    position: relative;
+  right: 10rem;
+    bottom: 0.4rem;
+    left: 0rem;
+  }
+
+  /* .me-2{
+    position: relative;
+    left: 0.7rem;
+  } */
+
+
+
+
+
+
+  .my-e-com {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* margin-right: 30rem; */
+    left: 1;
+    position: absolute;
+    
+}
+
+/* .navbar .nav-link {
+  display: flex;
+  align-items: center;
+} */
+
+.navbar .cart {
+  margin-left: 5px;
+}
+
+/* #dropdownMenuButton {
+  margin-left: 10px;
+  position: relative;
+} */
+
+
+.navbar {
+  padding: 10px 20px;
+}
+
+.navbar .btn-outline-primary,
+.navbar .btn-outline-secondary {
+    margin-right: 10px;
+}
+
+.navbar .form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .form-inline .form-control {
+  width: 100px;
+  margin-right: 15px;
+}
+
+
+.navbar .cart {
+  margin-left: 5px;
+}
+
+
+
+#language-dropdown .dropdown-item {
+  display: flex;
+  align-items: center;
+}
+
+
+.modal-header {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modal-body {
+  width: 80%;
+  
+  /* padding-top: 10px; */
+  position: absolute;
+  z-index: 7000;
+ 
+}
+
+
+.modal .form-group {
+  margin-bottom: 15px;
+  position: absolute;
+  z-index: 7000;
+  top: 10rem;
+}
+
+
+@media only screen and (min-width: 344px) and (max-width: 1120px) {
+ 
+  .top-navbar-container {
+    position: fixed;
+    width: 100vw;
+    height: 14vh;
+    top: 0;
+    left: 0;
+    background-color: rgb(199, 34, 34);
+   
+    /* gap: 40rem; */
+    z-index: 4000;
+}
+
+}
