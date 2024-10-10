@@ -141,95 +141,90 @@
   }
   
   
-  #footer-div{
-    background-color: rgba(199, 175, 175, 0.875);
-    width: 100vw;
-    height: 70vh;
-    top: 250rem;
-    position: absolute;
-    left: 0;
-    
-  }
-  
-  
-  .form111{
-    width: 500px;
-    background-color: white;
-    /* height: 50%; */
-    top: 0rem;
-   
-    position: relative;
-    bottom: 2rem;
-    left: 60rem;
-    top: 2.5rem;
-    z-index: 3rem;
-  }
-  
-  .form111 input{
-    border: 5PX solid BLACK;
-    background-color: white;
-    width: 500px;
-    /* width: 350px; */
-    height: 40px;
-    left: 0rem;
-    padding: 2rem;
-    /* top: 0rem; */
-    position: relative;
-    color: white;
-  }
-  .fbutton button{
-  
-    /* height: 60px; */
-    height: 10vh;
-  
-    
-  }
-  
-  .fbutton{
-    background-color: black;
-    z-index: 5rem;
-    /* width: 40%; */
-   
-    top: 0;
-    /* margin-bottom: 5rem; */
-    right: 0rem;
-  
-  
-    position: absolute;
-    /* position: relative; */
-    padding: 10px;
-    padding-bottom: 2.2REM;
-    padding-left: 6%;
-    padding-right: 4%;
-  }
-  
-  .fbutton a{
-    text-decoration: none;
-    color: white;
-    font:bold;
-    top: 0.8rem;
-    position: relative;
-    text-align: center;
-  }
-  
   
   .footer1{
     background-color: rosybrown;
-    width: 100VW;
+    /* width: 100VW; */
+    width: 100vw;
     left: 0;
+    position: absolute;
     height: 15vh;
     border-bottom: 2px solid blue;
   }
-  
+
   .footer2{
     background-color: black;
     width: 100vw;
     left: 0;
     height:12vh;
-    top: 34rem;
+    top: 38rem;
+    position: absolute;
+  }
+
+  
+
+ .footer1 form{
+    top: 3rem;
+    left: 2.6rem;
     position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+ 
+
+
+ 
+ .fbutton a {
+    font-size: 1.2em; /* Adjusts relative to screen size */
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ #footer-div{
+    background-color: rgba(199, 175, 175, 0.875);
+    width: 100vw;
+    height: 70vh;
+    top: 250rem;
+    position: relative;
+    left: 0;
+    
   }
   
+  
+ 
+  
+  
+ 
+  
+  .footer1 button{
+    background-color: black;
+    z-index: 5rem;
+    /* width: 40%; */
+   
+    top: 0rem;
+    position: absolute;
+
+left: 65%;
+height: 3.3vh;
+    /* margin-bottom: 5rem; */
+  
+    width: 15vw;
+  
+  
+   
+  }
   
   
   
