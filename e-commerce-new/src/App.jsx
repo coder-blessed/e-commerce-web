@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 
-import ProductList from './components/pages/ProductList';
+
 
 import CartPage from './components/pages/CartPage';
 import Collections from './components/Collections';
@@ -23,6 +23,7 @@ import Footer from './components/Footer';
 import Electronics from './components/Pages/Electronics';
 import Home from './components/Pages/Home';
 import HomesAndGardens from './components/Pages/HomesAndGardens';
+import ProductList from './components/pages/ProductList';
 
 
 function App() {
