@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cartpage.css'
+import './CartPage.css'
 
 const CartPage = ({ cartItems, setCartItems }) => {
   const totalAmount = cartItems.reduce((acc, item) => acc + item.quantity * item.price, 0);
