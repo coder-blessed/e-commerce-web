@@ -8,7 +8,7 @@ import './App.css';
 
 import CartPage from './components/hi/CartPage';
 import Collections from './components/Collections';
-import BestSeller from './components/BestSeller';
+
 import Pages from './components/Pages';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
@@ -60,7 +60,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home cartItems={cartItems} handleAddToCart={handleAddToCart} />} />
         <Route path="/Collections" element={<Collections />} />
-        <Route path="/BestSeller" element={<BestSeller />} />
+        
         <Route path="/Pages" element={<Pages />} />
         <Route path="/Blog" element={<Blog />} />
         <Route path="/Contact" element={<Contact />} />
