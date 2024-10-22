@@ -6,7 +6,7 @@ import './App.css';
 
 
 
-import CartPage from './components/pages/CartPage';
+import CartPage from './components/Pages/CartPage';
 import Collections from './components/Collections';
 import BestSeller from './components/BestSeller';
 import Pages from './components/Pages';
@@ -18,7 +18,7 @@ import TopNavbar from './components/TopNavbar';
 
 
 import { AuthProvider } from './components/pages/AuthContext';
-import ProfilePage from './components/pages/ProfilePage';
+import ProfilePage from './components/Pages/ProfilePage';
 import Footer from './components/Footer';
 import Electronics from './components/Pages/Electronics';
 import Home from './components/Pages/Home';
