@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import ProductList from './components/pages/ProductList.jsx';
 
 import './App.css';
 
+import ProductList from './components/pages/ProductList';
 
-
-import CartPage from './components/Pages/CartPage';
+import CartPage from './components/pages/CartPage';
 import Collections from './components/Collections';
 import BestSeller from './components/BestSeller';
 import Pages from './components/Pages';
@@ -19,7 +18,7 @@ import TopNavbar from './components/TopNavbar';
 
 
 import { AuthProvider } from './components/pages/AuthContext';
-import ProfilePage from './components/Pages/ProfilePage';
+import ProfilePage from './components/pages/ProfilePage';
 import Footer from './components/Footer';
 import Electronics from './components/Pages/Electronics';
 import Home from './components/Pages/Home';
@@ -66,7 +65,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/HomesAndGardens" element={<HomesAndGardens />} />
         <Route path="/electronics/*" element={<Electronics />} />
-        <Route Path= "ProductList/" element={<ProductList/>}/>
+        <Route path="/products" element={<ProductList cartItems={cartItems} setCartItems={setCartItems} />} />
         <Route path="/cart" element={<CartPage cartItems={cartItems} setCartItems={setCartItems} />} />
         <Route path="/profile" element={<ProfilePage cartItems={cartItems} setCartItems={setCartItems} />} />
        <Route path="/Footer" element= {<Footer/>}/>
