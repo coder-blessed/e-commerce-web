@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 
-import ProductList from './components/Pages';
+
 
 import CartPage from './components/pages/CartPage';
 import Collections from './components/Collections';
@@ -65,7 +65,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/HomesAndGardens" element={<HomesAndGardens />} />
         <Route path="/electronics/*" element={<Electronics />} />
-        <Route path="/products" element={<ProductList cartItems={cartItems} setCartItems={setCartItems} />} />
+       
         <Route path="/cart" element={<CartPage cartItems={cartItems} setCartItems={setCartItems} />} />
         <Route path="/profile" element={<ProfilePage cartItems={cartItems} setCartItems={setCartItems} />} />
        <Route path="/Footer" element= {<Footer/>}/>
