@@ -6,7 +6,7 @@ import './App.css';
 
 
 
-import CartPage from './components/pages/CartPage';
+import CartPage from './components/hi/CartPage';
 import Collections from './components/Collections';
 import BestSeller from './components/BestSeller';
 import Pages from './components/Pages';
@@ -17,13 +17,13 @@ import NavigationBar from './components/Navbar';
 import TopNavbar from './components/TopNavbar';
 
 
-import { AuthProvider } from './components/pages/AuthContext';
-import ProfilePage from './components/pages/ProfilePage';
+import { AuthProvider } from './components/hi/AuthContext';
+import ProfilePage from './components/hi/ProfilePage';
 import Footer from './components/Footer';
-import Electronics from './components/Pages/Electronics';
-import Home from './components/Pages/Home';
-import HomesAndGardens from './components/Pages/HomesAndGardens';
-import ProductList from './components/pages/ProductList';
+import Electronics from './components/hi/Electronics';
+import Home from './components/hi/Home';
+import HomesAndGardens from './components/hi/HomesAndGardens';
+import ProductList from './components/hi/ProductList';
 
 
 function App() {

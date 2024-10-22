@@ -4,7 +4,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faBars, faPhone, faShoppingCart, faTv, faTshirt, faMobileAlt, faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
-import { AuthContext } from './pages/AuthContext';
+import { AuthContext } from './hi/AuthContext';
 import './TopNavbar.css'; // Create this file for custom styles
 
 const TopNavbar = ({ cartItems = [] }) => {
